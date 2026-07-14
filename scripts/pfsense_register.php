@@ -5,7 +5,7 @@
  * Registra:
  *   - entrada de menu em installedpackages/menu (Status > Relatorios Squid)
  *   - entrada de pacote em installedpackages/package (metadados, sem menu aninhado)
- *   - job de cron (*/5 min) rodando o parser
+ *   - job de cron (a cada 5 minutos) rodando o parser
  * Idempotente: pode ser rodado de novo sem duplicar nada.
  */
 
