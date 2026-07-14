@@ -17,10 +17,10 @@ proprio pfSense.
 - Cron incremental (le so as linhas novas do log a cada execucao, nao reprocessa tudo)
 
 <img src="images/01 - uso_banda.jpg" width="900">
-/images/01 - uso_banda.jpg)
-/images/02 - top_usuarios.jpg)
-/images/03 - bloqueio.jpg)
 
+<img src="images/02 - top_usuarios.jpg" width="900">
+
+<img src="images/03 - bloqueio.jpg" width="900">
 
 ## Requisitos
 
