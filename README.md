@@ -16,6 +16,7 @@ proprio pfSense.
 - Exportacao para PDF via impressao do navegador (sem dependencias extras no firewall)
 - Cron incremental (le so as linhas novas do log a cada execucao, nao reprocessa tudo)
 
+<img src="images/01 - uso_banda.jpg" width="900">
 /images/01 - uso_banda.jpg)
 /images/02 - top_usuarios.jpg)
 /images/03 - bloqueio.jpg)
