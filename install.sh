@@ -2,15 +2,15 @@
 # install.sh - instalador do Squid Report para pfSense
 #
 # Uso (no shell do pfSense, dentro do "sh" para evitar o "!" do tcsh):
-#   fetch -o - https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/install.sh | sh
+#   fetch -o - https://raw.githubusercontent.com/fabianobelo/squid_report/main/install.sh | sh
 #
 # Ou baixando antes:
-#   fetch https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/install.sh
+#   fetch https://raw.githubusercontent.com/fabianobelo/squid_report/main/install.sh
 #   sh install.sh
 
 set -e
 
-REPO_RAW="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main"
+REPO_RAW="https://raw.githubusercontent.com/fabianobelo/squid_report/main"
 
 echo "== Squid Report para pfSense - instalador =="
 echo "Baixando de: $REPO_RAW"
