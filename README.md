@@ -16,6 +16,11 @@ proprio pfSense.
 - Exportacao para PDF via impressao do navegador (sem dependencias extras no firewall)
 - Cron incremental (le so as linhas novas do log a cada execucao, nao reprocessa tudo)
 
+/images/01 - uso_banda.jpg)
+/images/02 - top_usuarios.jpg)
+/images/03 - bloqueio.jpg)
+
+
 ## Requisitos
 
 - pfSense com os pacotes **Squid** e **SquidGuard** instalados e configurados
