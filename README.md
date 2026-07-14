@@ -29,7 +29,7 @@ No shell do pfSense, entre no `sh` primeiro (o shell padrao `tcsh` interpreta
 
 ```sh
 sh
-fetch -o - https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/install.sh | sh
+fetch -o - https://raw.githubusercontent.com/fabianobelo/squid_report/main/install.sh | sh
 ```
 
 Isso baixa os arquivos, registra o menu **Status > Relatorios Squid**, cria o
@@ -63,14 +63,14 @@ conforme a sua politica.
 
 ```sh
 sh
-fetch -o - https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/uninstall.sh | sh
+fetch -o - https://raw.githubusercontent.com/fabianobelo/squid_report/main/uninstall.sh | sh
 ```
 
 Isso remove o menu, o cron e os arquivos PHP, mas **mantem** o historico
 coletado em `/var/db/squid_report`. Para apagar tudo, incluindo o historico:
 
 ```sh
-fetch -o - https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/uninstall.sh | PURGE=1 sh
+fetch -o - https://raw.githubusercontent.com/fabianobelo/squid_report/main/uninstall.sh | PURGE=1 sh
 ```
 
 ## Estrutura do repositorio
