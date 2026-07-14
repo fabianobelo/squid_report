@@ -31,7 +31,7 @@ if (!$pkgExists) {
         'name'          => $PKG_NAME,
         'internal_name' => $PKG_NAME,
         'descr'         => 'Relatorio de trafego Squid/SquidGuard com graficos (open source)',
-        'website'       => 'https://github.com/SEU_USUARIO/SEU_REPO',
+        'website'       => 'https://github.com/fabianobelo/squid_report',
         'version'       => '1.0',
     ];
     echo "Pacote registrado em installedpackages/package.\n";
