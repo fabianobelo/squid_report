@@ -2,14 +2,14 @@
 # uninstall.sh - remove o Squid Report do pfSense
 #
 # Uso:
-#   fetch -o - https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/uninstall.sh | sh
+#   fetch -o - https://github.com/fabianobelo/squid_report/blob/main/uninstall.sh | sh
 #
 # Para tambem apagar o historico coletado (banco/cache), rode com PURGE=1:
 #   fetch -o - .../uninstall.sh | PURGE=1 sh
 
 set -e
 
-REPO_RAW="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main"
+REPO_RAW="https://raw.githubusercontent.com/fabianobelo/squid_report/blob/main"
 
 echo "== Squid Report para pfSense - desinstalador =="
 
